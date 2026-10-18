@@ -54,6 +54,10 @@ jobs:
           with open("data.json", "w", encoding="utf-8") as f:
               json.dump(output, f, ensure_ascii=False, indent=2)
 
+          print("Current directory:", os.getcwd())
+          print("Files:", os.listdir("."))
+          print("data.json exists:", os.path.exists("data.json"))
+ 
           print("data.json created successfully.")
           print(f"File size: {os.path.getsize('data.json')} bytes")
           PY
