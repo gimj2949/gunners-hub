@@ -1,0 +1,16 @@
+# GUNNERS HUB — live data setup
+
+This bundle adds dynamic match cards and a live Premier League table to the current Gunners Hub HTML. A GitHub Actions workflow fetches matches and standings from football-data.org every 15 minutes and updates `data.json`.
+
+## One-time setup
+1. Create a free account and obtain an API token at https://www.football-data.org/client/register. Premier League data is listed in the free coverage tier.
+2. In `gimj2949/gunners-hub`, open **Settings → Secrets and variables → Actions → New repository secret**. Name it exactly `FOOTBALL_DATA_TOKEN` and paste the token into the **Secret** field. Never put the token in `index.html`, a public file, or a chat message.
+3. Replace the repository root `index.html` with the included `index.html`. Add `.github/workflows/refresh-football-data.yml` at that exact path. Commit both files to the default branch.
+4. In **Settings → Actions → General**, ensure workflows are permitted and the workflow has read/write repository contents permission if the repository policy exposes that option. In **Actions**, open “Refresh Premier League data” and select **Run workflow** once.
+5. Confirm the workflow succeeds and creates `data.json`. If GitHub Pages publishes from the main branch/root, the site should read that file automatically after deployment.
+
+## Notes
+- The workflow makes two API calls per run, well under the published free-tier rate limit when run every 15 minutes.
+- Live score updates depend on the provider's coverage and refresh timing; this is not a ball-by-ball feed.
+- GitHub scheduled workflows may start a little late. If a run fails, inspect its log in the Actions tab without exposing the token.
+- Existing static snapshot cards in the HTML are historical; the new dynamic table is the live standings view.
