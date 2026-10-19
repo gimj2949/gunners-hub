@@ -64,8 +64,31 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #e8c6
   try {
     const response = await fetch('./data.json?ts=' + Date.now(), { cache: 'no-store' });
     if (!response.ok) throw new Error('data.json HTTP ' + response.status);
-    const data = await response.json();
-    const allMatches = data.matches?.matches || [];
+   
+const data = await response.json();
+
+// 실제 프리미어리그 순위에서 아스날 정보 가져오기
+const standings = data.standings?.standings || [];
+const table = standings.flatMap(group => group.table || []);
+
+const arsenal = table.find(row =>
+  /arsenal/i.test(row.team?.name || '')
+);
+
+if (arsenal) {
+  const played = Number(arsenal.playedGames);
+  const points = Number(arsenal.points);
+
+  document.getElementById('currentPoints').value = points;
+  document.getElementById('remainingGames').value =
+    Math.max(0, 38 - played);
+
+  // 변경된 승점과 경기 수로 시뮬레이터 다시 계산
+  renderSeason();
+}
+
+const allMatches = data.matches?.matches || [];
+
     const arsenalMatches = allMatches.filter(m =>
       /arsenal/i.test((m.homeTeam?.name || '') + ' ' + (m.awayTeam?.name || ''))
     );
