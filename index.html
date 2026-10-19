@@ -70,13 +70,14 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #e8c6
       /arsenal/i.test((m.homeTeam?.name || '') + ' ' + (m.awayTeam?.name || ''))
     );
     const finished = arsenalMatches
-      .filter(m => m.status === 'FINISHED')
-      .sort((a,b) => new Date(b.utcDate) - new Date(a.utcDate))
-      .slice(0,5);
-    const upcoming = arsenalMatches
-      .filter(m => ['SCHEDULED','TIMED','IN_PLAY','PAUSED'].includes(m.status))
-      .sort((a,b) => new Date(a.utcDate) - new Date(b.utcDate))
-      .slice(0,5);
+  .filter(m => m.status === 'FINISHED')
+  .sort((a, b) => new Date(b.utcDate) - new Date(a.utcDate))
+  .slice(0, 1);
+
+const upcoming = arsenalMatches
+  .filter(m => ['SCHEDULED', 'TIMED'].includes(m.status))
+  .sort((a, b) => new Date(a.utcDate) - new Date(b.utcDate))
+  .slice(0, 1);
     document.getElementById('liveMatchesUpdated').textContent = 'data.json 연결 완료';
     status.textContent = '데이터 연결됨';
     function card(m, isFinished) {
