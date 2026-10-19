@@ -68,8 +68,14 @@ input:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #e8c6
 const data = await response.json();
 
 // 실제 프리미어리그 순위에서 아스날 정보 가져오기
-const standings = data.standings?.standings || [];
-const table = standings.flatMap(group => group.table || []);
+const standingsData = data.standings;
+const standings = Array.isArray(standingsData?.standings)
+  ? standingsData.standings
+  : [];
+
+const table = standings.flatMap(group =>
+  Array.isArray(group.table) ? group.table : []
+);
 
 const arsenal = table.find(row =>
   /arsenal/i.test(row.team?.name || '')
