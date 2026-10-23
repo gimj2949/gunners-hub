@@ -4660,11 +4660,11 @@
         },
         "id": 560620,
         "utcDate": "2026-10-23T19:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-23T00:20:28Z",
+        "lastUpdated": "2026-10-23T19:54:30Z",
         "homeTeam": {
           "id": 349,
           "name": "Ipswich Town FC",
@@ -4680,21 +4680,28 @@
           "crest": "https://crests.football-data.org/351.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11620,
+            "name": "Thomas Bramall",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -23114,6 +23121,25 @@
           {
             "position": 9,
             "team": {
+              "id": 349,
+              "name": "Ipswich Town FC",
+              "shortName": "Ipswich Town",
+              "tla": "IPS",
+              "crest": "https://crests.football-data.org/349.png"
+            },
+            "playedGames": 8,
+            "form": null,
+            "won": 3,
+            "draw": 1,
+            "lost": 4,
+            "points": 10,
+            "goalsFor": 12,
+            "goalsAgainst": 16,
+            "goalDifference": -4
+          },
+          {
+            "position": 10,
+            "team": {
               "id": 322,
               "name": "Hull City AFC",
               "shortName": "Hull City",
@@ -23129,25 +23155,6 @@
             "goalsFor": 8,
             "goalsAgainst": 7,
             "goalDifference": 1
-          },
-          {
-            "position": 10,
-            "team": {
-              "id": 349,
-              "name": "Ipswich Town FC",
-              "shortName": "Ipswich Town",
-              "tla": "IPS",
-              "crest": "https://crests.football-data.org/349.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 3,
-            "draw": 0,
-            "lost": 4,
-            "points": 9,
-            "goalsFor": 11,
-            "goalsAgainst": 15,
-            "goalDifference": -4
           },
           {
             "position": 11,
@@ -23247,6 +23254,25 @@
           {
             "position": 16,
             "team": {
+              "id": 351,
+              "name": "Nottingham Forest FC",
+              "shortName": "Nottingham",
+              "tla": "NOT",
+              "crest": "https://crests.football-data.org/351.png"
+            },
+            "playedGames": 8,
+            "form": null,
+            "won": 1,
+            "draw": 3,
+            "lost": 4,
+            "points": 6,
+            "goalsFor": 6,
+            "goalsAgainst": 10,
+            "goalDifference": -4
+          },
+          {
+            "position": 16,
+            "team": {
               "id": 73,
               "name": "Tottenham Hotspur FC",
               "shortName": "Tottenham",
@@ -23264,7 +23290,7 @@
             "goalDifference": -4
           },
           {
-            "position": 17,
+            "position": 18,
             "team": {
               "id": 1076,
               "name": "Coventry City FC",
@@ -23283,7 +23309,7 @@
             "goalDifference": -8
           },
           {
-            "position": 18,
+            "position": 19,
             "team": {
               "id": 63,
               "name": "Fulham FC",
@@ -23300,25 +23326,6 @@
             "goalsFor": 7,
             "goalsAgainst": 10,
             "goalDifference": -3
-          },
-          {
-            "position": 19,
-            "team": {
-              "id": 351,
-              "name": "Nottingham Forest FC",
-              "shortName": "Nottingham",
-              "tla": "NOT",
-              "crest": "https://crests.football-data.org/351.png"
-            },
-            "playedGames": 7,
-            "form": null,
-            "won": 1,
-            "draw": 2,
-            "lost": 4,
-            "points": 5,
-            "goalsFor": 5,
-            "goalsAgainst": 9,
-            "goalDifference": -4
           },
           {
             "position": 20,
