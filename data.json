@@ -7,7 +7,7 @@
       "count": 380,
       "first": "2026-08-21",
       "last": "2027-05-30",
-      "played": 79
+      "played": 80
     },
     "competition": {
       "id": 2021,
@@ -4994,7 +4994,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:01:58Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 64,
           "name": "Liverpool FC",
@@ -5060,7 +5060,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:01:57Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 354,
           "name": "Crystal Palace FC",
@@ -5126,7 +5126,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T16:00:22Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 66,
           "name": "Manchester United FC",
@@ -5192,7 +5192,7 @@
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T15:58:45Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 322,
           "name": "Hull City AFC",
@@ -5254,11 +5254,11 @@
         },
         "id": 560621,
         "utcDate": "2026-10-25T16:30:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 8,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-10-25T17:43:50Z",
+        "lastUpdated": "2026-10-25T19:25:08Z",
         "homeTeam": {
           "id": 71,
           "name": "Sunderland AFC",
