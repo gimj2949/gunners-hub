@@ -5980,11 +5980,11 @@
         },
         "id": 560634,
         "utcDate": "2026-11-06T20:00:00Z",
-        "status": "TIMED",
+        "status": "IN_PLAY",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T00:20:28Z",
+        "lastUpdated": "2026-11-06T20:41:23Z",
         "homeTeam": {
           "id": 62,
           "name": "Everton FC",
@@ -6000,11 +6000,11 @@
           "crest": "https://crests.football-data.org/1076.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           },
           "halfTime": {
             "home": null,
@@ -6014,7 +6014,14 @@
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11494,
+            "name": "Stuart Attwell",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -23222,12 +23229,12 @@
               "tla": "EVE",
               "crest": "https://crests.football-data.org/62.png"
             },
-            "playedGames": 9,
+            "playedGames": 10,
             "form": null,
             "won": 3,
-            "draw": 4,
+            "draw": 5,
             "lost": 2,
-            "points": 13,
+            "points": 14,
             "goalsFor": 9,
             "goalsAgainst": 9,
             "goalDifference": 0
@@ -23368,6 +23375,25 @@
           {
             "position": 15,
             "team": {
+              "id": 1076,
+              "name": "Coventry City FC",
+              "shortName": "Coventry City",
+              "tla": "COV",
+              "crest": "https://crests.football-data.org/1076.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 3,
+            "draw": 1,
+            "lost": 6,
+            "points": 10,
+            "goalsFor": 9,
+            "goalsAgainst": 16,
+            "goalDifference": -7
+          },
+          {
+            "position": 16,
+            "team": {
               "id": 63,
               "name": "Fulham FC",
               "shortName": "Fulham",
@@ -23383,25 +23409,6 @@
             "goalsFor": 9,
             "goalsAgainst": 11,
             "goalDifference": -2
-          },
-          {
-            "position": 16,
-            "team": {
-              "id": 1076,
-              "name": "Coventry City FC",
-              "shortName": "Coventry City",
-              "tla": "COV",
-              "crest": "https://crests.football-data.org/1076.png"
-            },
-            "playedGames": 9,
-            "form": null,
-            "won": 3,
-            "draw": 0,
-            "lost": 6,
-            "points": 9,
-            "goalsFor": 9,
-            "goalsAgainst": 16,
-            "goalDifference": -7
           },
           {
             "position": 17,
