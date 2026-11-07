@@ -7,7 +7,7 @@
       "count": 380,
       "first": "2026-08-21",
       "last": "2027-05-30",
-      "played": 90
+      "played": 91
     },
     "competition": {
       "id": 2021,
@@ -5980,11 +5980,11 @@
         },
         "id": 560634,
         "utcDate": "2026-11-06T20:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-06T20:41:23Z",
+        "lastUpdated": "2026-11-06T23:25:12Z",
         "homeTeam": {
           "id": 62,
           "name": "Everton FC",
@@ -6000,15 +6000,15 @@
           "crest": "https://crests.football-data.org/1076.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 0
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -23185,6 +23185,25 @@
           {
             "position": 5,
             "team": {
+              "id": 62,
+              "name": "Everton FC",
+              "shortName": "Everton",
+              "tla": "EVE",
+              "crest": "https://crests.football-data.org/62.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 4,
+            "draw": 4,
+            "lost": 2,
+            "points": 16,
+            "goalsFor": 12,
+            "goalsAgainst": 10,
+            "goalDifference": 2
+          },
+          {
+            "position": 6,
+            "team": {
               "id": 64,
               "name": "Liverpool FC",
               "shortName": "Liverpool",
@@ -23202,7 +23221,7 @@
             "goalDifference": 2
           },
           {
-            "position": 6,
+            "position": 7,
             "team": {
               "id": 402,
               "name": "Brentford FC",
@@ -23219,25 +23238,6 @@
             "goalsFor": 16,
             "goalsAgainst": 9,
             "goalDifference": 7
-          },
-          {
-            "position": 7,
-            "team": {
-              "id": 62,
-              "name": "Everton FC",
-              "shortName": "Everton",
-              "tla": "EVE",
-              "crest": "https://crests.football-data.org/62.png"
-            },
-            "playedGames": 10,
-            "form": null,
-            "won": 3,
-            "draw": 5,
-            "lost": 2,
-            "points": 14,
-            "goalsFor": 9,
-            "goalsAgainst": 9,
-            "goalDifference": 0
           },
           {
             "position": 8,
@@ -23375,25 +23375,6 @@
           {
             "position": 15,
             "team": {
-              "id": 1076,
-              "name": "Coventry City FC",
-              "shortName": "Coventry City",
-              "tla": "COV",
-              "crest": "https://crests.football-data.org/1076.png"
-            },
-            "playedGames": 10,
-            "form": null,
-            "won": 3,
-            "draw": 1,
-            "lost": 6,
-            "points": 10,
-            "goalsFor": 9,
-            "goalsAgainst": 16,
-            "goalDifference": -7
-          },
-          {
-            "position": 16,
-            "team": {
               "id": 63,
               "name": "Fulham FC",
               "shortName": "Fulham",
@@ -23409,6 +23390,25 @@
             "goalsFor": 9,
             "goalsAgainst": 11,
             "goalDifference": -2
+          },
+          {
+            "position": 16,
+            "team": {
+              "id": 1076,
+              "name": "Coventry City FC",
+              "shortName": "Coventry City",
+              "tla": "COV",
+              "crest": "https://crests.football-data.org/1076.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 3,
+            "draw": 0,
+            "lost": 7,
+            "points": 9,
+            "goalsFor": 10,
+            "goalsAgainst": 19,
+            "goalDifference": -9
           },
           {
             "position": 17,
