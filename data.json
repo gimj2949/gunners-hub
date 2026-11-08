@@ -7,7 +7,7 @@
       "count": 380,
       "first": "2026-08-21",
       "last": "2027-05-30",
-      "played": 95
+      "played": 100
     },
     "competition": {
       "id": 2021,
@@ -6310,11 +6310,11 @@
         },
         "id": 560635,
         "utcDate": "2026-11-08T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-08T14:24:51Z",
+        "lastUpdated": "2026-11-08T16:01:55Z",
         "homeTeam": {
           "id": 354,
           "name": "Crystal Palace FC",
@@ -6330,15 +6330,15 @@
           "crest": "https://crests.football-data.org/64.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 0
+            "home": 1,
+            "away": 3
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -6376,11 +6376,11 @@
         },
         "id": 560636,
         "utcDate": "2026-11-08T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-08T14:24:51Z",
+        "lastUpdated": "2026-11-08T16:08:19Z",
         "homeTeam": {
           "id": 71,
           "name": "Sunderland AFC",
@@ -6396,15 +6396,15 @@
           "crest": "https://crests.football-data.org/61.png"
         },
         "score": {
-          "winner": "DRAW",
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
+            "home": 1,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           }
         },
         "odds": {
@@ -6442,11 +6442,11 @@
         },
         "id": 560637,
         "utcDate": "2026-11-08T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-08T14:24:51Z",
+        "lastUpdated": "2026-11-08T16:04:03Z",
         "homeTeam": {
           "id": 349,
           "name": "Ipswich Town FC",
@@ -6465,12 +6465,12 @@
           "winner": "AWAY_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 0,
-            "away": 1
+            "home": 1,
+            "away": 2
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 1
           }
         },
         "odds": {
@@ -6508,11 +6508,11 @@
         },
         "id": 560638,
         "utcDate": "2026-11-08T14:00:00Z",
-        "status": "IN_PLAY",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-08T14:25:23Z",
+        "lastUpdated": "2026-11-08T16:04:03Z",
         "homeTeam": {
           "id": 397,
           "name": "Brighton & Hove Albion FC",
@@ -6531,12 +6531,12 @@
           "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": 1,
+            "home": 2,
             "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
@@ -6574,11 +6574,11 @@
         },
         "id": 560639,
         "utcDate": "2026-11-08T16:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-08T01:32:01Z",
+        "lastUpdated": "2026-11-08T18:37:39Z",
         "homeTeam": {
           "id": 66,
           "name": "Manchester United FC",
@@ -6594,21 +6594,28 @@
           "crest": "https://crests.football-data.org/58.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 4,
+            "away": 4
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 2
           }
         },
         "odds": {
           "msg": "Activate Odds-Package in User-Panel to retrieve odds."
         },
-        "referees": []
+        "referees": [
+          {
+            "id": 11443,
+            "name": "Chris Kavanagh",
+            "type": "REFEREE",
+            "nationality": "England"
+          }
+        ]
       },
       {
         "area": {
@@ -23196,9 +23203,9 @@
             "draw": 1,
             "lost": 2,
             "points": 22,
-            "goalsFor": 25,
+            "goalsFor": 26,
             "goalsAgainst": 7,
-            "goalDifference": 18
+            "goalDifference": 19
           },
           {
             "position": 3,
@@ -23222,6 +23229,25 @@
           {
             "position": 4,
             "team": {
+              "id": 64,
+              "name": "Liverpool FC",
+              "shortName": "Liverpool",
+              "tla": "LIV",
+              "crest": "https://crests.football-data.org/64.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 5,
+            "draw": 3,
+            "lost": 2,
+            "points": 18,
+            "goalsFor": 14,
+            "goalsAgainst": 10,
+            "goalDifference": 4
+          },
+          {
+            "position": 5,
+            "team": {
               "id": 61,
               "name": "Chelsea FC",
               "shortName": "Chelsea",
@@ -23231,15 +23257,15 @@
             "playedGames": 10,
             "form": null,
             "won": 5,
-            "draw": 2,
-            "lost": 3,
-            "points": 17,
+            "draw": 1,
+            "lost": 4,
+            "points": 16,
             "goalsFor": 19,
-            "goalsAgainst": 15,
-            "goalDifference": 4
+            "goalsAgainst": 16,
+            "goalDifference": 3
           },
           {
-            "position": 5,
+            "position": 6,
             "team": {
               "id": 62,
               "name": "Everton FC",
@@ -23258,25 +23284,6 @@
             "goalDifference": 2
           },
           {
-            "position": 6,
-            "team": {
-              "id": 64,
-              "name": "Liverpool FC",
-              "shortName": "Liverpool",
-              "tla": "LIV",
-              "crest": "https://crests.football-data.org/64.png"
-            },
-            "playedGames": 10,
-            "form": null,
-            "won": 4,
-            "draw": 4,
-            "lost": 2,
-            "points": 16,
-            "goalsFor": 11,
-            "goalsAgainst": 9,
-            "goalDifference": 2
-          },
-          {
             "position": 7,
             "team": {
               "id": 1044,
@@ -23291,8 +23298,8 @@
             "draw": 3,
             "lost": 3,
             "points": 15,
-            "goalsFor": 15,
-            "goalsAgainst": 13,
+            "goalsFor": 16,
+            "goalsAgainst": 14,
             "goalDifference": 2
           },
           {
@@ -23311,8 +23318,8 @@
             "lost": 2,
             "points": 14,
             "goalsFor": 16,
-            "goalsAgainst": 10,
-            "goalDifference": 6
+            "goalsAgainst": 11,
+            "goalDifference": 5
           },
           {
             "position": 9,
@@ -23336,6 +23343,25 @@
           {
             "position": 10,
             "team": {
+              "id": 58,
+              "name": "Aston Villa FC",
+              "shortName": "Aston Villa",
+              "tla": "AVL",
+              "crest": "https://crests.football-data.org/58.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 3,
+            "draw": 4,
+            "lost": 3,
+            "points": 13,
+            "goalsFor": 14,
+            "goalsAgainst": 17,
+            "goalDifference": -3
+          },
+          {
+            "position": 11,
+            "team": {
               "id": 73,
               "name": "Tottenham Hotspur FC",
               "shortName": "Tottenham",
@@ -23353,7 +23379,7 @@
             "goalDifference": -1
           },
           {
-            "position": 11,
+            "position": 12,
             "team": {
               "id": 67,
               "name": "Newcastle United FC",
@@ -23369,25 +23395,6 @@
             "points": 12,
             "goalsFor": 13,
             "goalsAgainst": 16,
-            "goalDifference": -3
-          },
-          {
-            "position": 12,
-            "team": {
-              "id": 58,
-              "name": "Aston Villa FC",
-              "shortName": "Aston Villa",
-              "tla": "AVL",
-              "crest": "https://crests.football-data.org/58.png"
-            },
-            "playedGames": 9,
-            "form": null,
-            "won": 3,
-            "draw": 3,
-            "lost": 3,
-            "points": 12,
-            "goalsFor": 10,
-            "goalsAgainst": 13,
             "goalDifference": -3
           },
           {
@@ -23424,8 +23431,8 @@
             "draw": 2,
             "lost": 5,
             "points": 11,
-            "goalsFor": 14,
-            "goalsAgainst": 19,
+            "goalsFor": 15,
+            "goalsAgainst": 20,
             "goalDifference": -5
           },
           {
@@ -23488,43 +23495,24 @@
           {
             "position": 18,
             "team": {
-              "id": 354,
-              "name": "Crystal Palace FC",
-              "shortName": "Crystal Palace",
-              "tla": "CRY",
-              "crest": "https://crests.football-data.org/354.png"
-            },
-            "playedGames": 10,
-            "form": null,
-            "won": 2,
-            "draw": 2,
-            "lost": 6,
-            "points": 8,
-            "goalsFor": 9,
-            "goalsAgainst": 21,
-            "goalDifference": -12
-          },
-          {
-            "position": 19,
-            "team": {
               "id": 66,
               "name": "Manchester United FC",
               "shortName": "Man United",
               "tla": "MUN",
               "crest": "https://crests.football-data.org/66.png"
             },
-            "playedGames": 9,
+            "playedGames": 10,
             "form": null,
             "won": 1,
-            "draw": 4,
+            "draw": 5,
             "lost": 4,
-            "points": 7,
-            "goalsFor": 10,
-            "goalsAgainst": 15,
+            "points": 8,
+            "goalsFor": 14,
+            "goalsAgainst": 19,
             "goalDifference": -5
           },
           {
-            "position": 20,
+            "position": 19,
             "team": {
               "id": 71,
               "name": "Sunderland AFC",
@@ -23534,13 +23522,32 @@
             },
             "playedGames": 10,
             "form": null,
-            "won": 1,
-            "draw": 3,
+            "won": 2,
+            "draw": 2,
             "lost": 6,
-            "points": 6,
-            "goalsFor": 7,
+            "points": 8,
+            "goalsFor": 8,
             "goalsAgainst": 17,
-            "goalDifference": -10
+            "goalDifference": -9
+          },
+          {
+            "position": 20,
+            "team": {
+              "id": 354,
+              "name": "Crystal Palace FC",
+              "shortName": "Crystal Palace",
+              "tla": "CRY",
+              "crest": "https://crests.football-data.org/354.png"
+            },
+            "playedGames": 10,
+            "form": null,
+            "won": 2,
+            "draw": 1,
+            "lost": 7,
+            "points": 7,
+            "goalsFor": 10,
+            "goalsAgainst": 24,
+            "goalDifference": -14
           }
         ]
       }
