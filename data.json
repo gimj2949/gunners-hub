@@ -7,7 +7,7 @@
       "count": 380,
       "first": "2026-08-21",
       "last": "2027-05-30",
-      "played": 91
+      "played": 95
     },
     "competition": {
       "id": 2021,
@@ -6046,11 +6046,11 @@
         },
         "id": 560632,
         "utcDate": "2026-11-07T12:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-07T00:20:31Z",
+        "lastUpdated": "2026-11-07T23:25:12Z",
         "homeTeam": {
           "id": 341,
           "name": "Leeds United FC",
@@ -6066,15 +6066,15 @@
           "crest": "https://crests.football-data.org/73.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -6112,11 +6112,11 @@
         },
         "id": 560640,
         "utcDate": "2026-11-07T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-07T00:20:31Z",
+        "lastUpdated": "2026-11-07T23:25:12Z",
         "homeTeam": {
           "id": 57,
           "name": "Arsenal FC",
@@ -6132,15 +6132,15 @@
           "crest": "https://crests.football-data.org/322.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 0
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -6178,11 +6178,11 @@
         },
         "id": 560633,
         "utcDate": "2026-11-07T15:00:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-07T00:20:31Z",
+        "lastUpdated": "2026-11-07T23:25:12Z",
         "homeTeam": {
           "id": 63,
           "name": "Fulham FC",
@@ -6198,15 +6198,15 @@
           "crest": "https://crests.football-data.org/67.png"
         },
         "score": {
-          "winner": null,
+          "winner": "DRAW",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 1,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 0,
+            "away": 0
           }
         },
         "odds": {
@@ -6244,11 +6244,11 @@
         },
         "id": 560641,
         "utcDate": "2026-11-07T17:30:00Z",
-        "status": "TIMED",
+        "status": "FINISHED",
         "matchday": 10,
         "stage": "REGULAR_SEASON",
         "group": null,
-        "lastUpdated": "2026-11-07T00:20:31Z",
+        "lastUpdated": "2026-11-07T23:25:13Z",
         "homeTeam": {
           "id": 351,
           "name": "Nottingham Forest FC",
@@ -6264,15 +6264,15 @@
           "crest": "https://crests.football-data.org/65.png"
         },
         "score": {
-          "winner": null,
+          "winner": "HOME_TEAM",
           "duration": "REGULAR",
           "fullTime": {
-            "home": null,
-            "away": null
+            "home": 3,
+            "away": 1
           },
           "halfTime": {
-            "home": null,
-            "away": null
+            "home": 2,
+            "away": 0
           }
         },
         "odds": {
